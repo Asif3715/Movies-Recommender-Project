@@ -104,19 +104,28 @@ def main():
     if movies_df is None:
         st.stop()
 
+    # Initialize button state
     if 'button_clicked' not in st.session_state:
         st.session_state.button_clicked = False
 
+    # Function to turn the button ON
     def click_button():
         st.session_state.button_clicked = True
+
+    # Function to turn the button OFF (resets the view)
+    def reset_state():
+        st.session_state.button_clicked = False
 
     col1, col2 = st.columns([1, 2])
 
     with col1:
         st.subheader("Select a Movie")
+        
+        # ADDED on_change here so picking a new movie hides the old recommendations
         selected_movie = st.selectbox(
             "Type or select a movie from the dropdown",
-            movies_list
+            movies_list,
+            on_change=reset_state 
         )
 
         st.button('🔍 Show Recommendations', on_click=click_button, type="primary")
@@ -149,7 +158,6 @@ def main():
         st.metric("Total Movies in Database", len(movies_list))
 
     st.markdown("---")
-
 
 if __name__ == "__main__":
     main()
