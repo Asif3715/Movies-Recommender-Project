@@ -7,7 +7,6 @@
 > A machine learning-powered web app that delivers personalized movie recommendations using Content-Based Filtering.
 
 **[🚀 View Live Application](https://movies-recommender-e9in.onrender.com/)**
-> *Note: The free tier on Render may take 30–50 seconds to spin up after periods of inactivity.*
 
 ---
 
