@@ -2,11 +2,11 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-Framework-red)](https://streamlit.io/)
-[![Deployment](https://img.shields.io/badge/Deployed_on-Render-black)](https://movies-recommender-e9in.onrender.com/)
+[![Deployment](https://img.shields.io/badge/Deployed_on-Render-black)](https://movies-recommender-project-1.onrender.com/)
 
 > A machine learning-powered web app that delivers personalized movie recommendations using Content-Based Filtering.
 
-**[🚀 View Live Application](https://movies-recommender-project-1.onrender.com/)**
+**[🚀 View Live Application](https://movies-recommender-e9in.onrender.com/)**
 > *Note: The free tier on Render may take 30–50 seconds to spin up after periods of inactivity.*
 
 ---
