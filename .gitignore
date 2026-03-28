@@ -1,21 +1,16 @@
-# Ignore heavy raw datasets (Notebooks already show how you processed them)
 *.csv
 tmdb_5000_credits.csv
 tmdb_5000_movies.csv
 
-# Ignore unused/redundant pickle files
 movies_list.pkl
 prepared.pkl
-# Ignore the giant uncompressed matrix to prevent GitHub errors!
 similarity_matrix.pkl
 
-# Ignore virtual environments
 movie-env/
 venv/
 env/
 .conda/
 
-# Ignore Python cache files
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
